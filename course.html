@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <title>College Website</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSES ▼</a>
+                        <ul class="dropdown">
+                            <li><a href="intermediate.html">INTERMEDIATE</a></li>
+                            <li><a href="degree.html">DEGREE</a></li>
+                            <li><a href="postg.html">POST GRADUAT</a></li>
+                          </ul>
+                    </li>
+                    <li><a href="#">STUDENTS ▼</a>
+                        <ul class="dropdown">
+                            <li><a href="admission.html">ADMISSION</a></li>
+                            <li><a href="acadmic.html">ACADMIC RULES</a></li>
+                          </ul>
+                    </li>
+                    <li ><a href="news.html">NEWS & EVENTS ▼</a >
+                        <ul class="dropdown" >
+                            <li><a href="news.html">NEWS</a></li>
+                            <li><a href="events.html">EVENTS</a></li>
+                          </ul>
+                    </li >
+                    <li><a href="staff.html">STAFF</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>OUR COURSES</h1>
+    </section>
+
+    <!-- our courses content -->
+    
+      <!-- COURSES -->
+
+    <section class="course">
+     <h1>Coourses we offer</h1>
+     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+     <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error sapiente nam, reiciendis culpa natus, ipsum voluptates illum laudantium consequatur minima excepturi dolores molestiae aspernatur numquam eius tenetur beatae vel eos.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error sapiente nam, reiciendis culpa natus, ipsum voluptates illum laudantium consequatur minima excepturi dolores molestiae aspernatur numquam eius tenetur beatae vel eos.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error sapiente nam, reiciendis culpa natus, ipsum voluptates illum laudantium consequatur minima excepturi dolores molestiae aspernatur numquam eius tenetur beatae vel eos.</p>
+            </div>
+        </div>
+    </section>
+    <!-- our courses ends -->
+         </div>
+    </section>
+ 
+    <!-- facilities ends-->
+    
+
+    <!-- Footer -->
+    
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, voluptates asperiores id quas <br> doloremque dolorum eligendi nobis delectus vero culpa dolores aliquid ipsam sit nulla sed enim quae magnam nihil!</p>
+        <div class="icons">
+            <i class="fa fa-facebook" ></i>
+            <i class="fa fa-twitter" ></i>
+            <i class="fa fa-instagram" ></i>
+            <i class="fa fa-linkedin" ></i>
+        </div>
+        <a href="biodata.html"><p>Made with <i class="fa fa-heart-o"> </i> by Abhi..</a></p>
+    </section>
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+        var navLinks =document.getElementById("navLinks");
+        
+        function showMenu()
+        {
+            navLinks.style.right="0";
+        }
+
+        function hideMenu()
+        {
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
